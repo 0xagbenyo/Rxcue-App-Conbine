@@ -1,0 +1,110 @@
+
+PRODUCT REQUIREMENTS DOCUMENT (PRD)
+===================================
+Product Name: Rxcue
+Version: 1.0
+Prepared by: [Your Name]
+Date: August 1, 2025
+
+1. Overview
+-----------
+Rxcue is a mobile-first health platform designed to simplify access to prescription medications, over-the-counter (OTC) health products, and professional pharmacist consultations. The app enables users to order medications, track deliveries in real time, and chat directly with licensed pharmacists to ensure safe, informed drug use.
+
+2. Goals & Objectives
+---------------------
+- Provide fast and secure access to prescription and OTC medicines.
+- Offer real-time support through pharmacist chat and guidance.
+- Enable transparent order tracking from pharmacy to doorstep.
+- Promote medication adherence through refill reminders.
+- Ensure user-friendly experiences optimized for low-resource regions.
+
+3. Target Audience
+------------------
+- Patients managing chronic conditions (e.g., hypertension, diabetes).
+- Caregivers ordering for family members or elders.
+- Urban professionals looking for fast, trusted delivery.
+- People in remote areas needing pharmacist access.
+
+4. Core Features
+----------------
+
+4.1. User Registration & Profiles
+- OTP-based login via phone or email.
+- Profiles support multiple patients (e.g., family members).
+- Medical history storage (basic).
+
+4.2. Medicine Ordering
+- Search by drug name, category, or upload a prescription.
+- Option to select generics or branded alternatives.
+- Smart cart that flags drug interaction risks.
+- Discounts, bundle packs, and subscription refills.
+- Prescription validation by licensed pharmacist before checkout.
+
+4.3. Talk to a Pharmacist
+- Live chat with licensed pharmacists available during working hours.
+- Upload prescriptions or images inside chat.
+- Pharmacist dashboard includes chat history, smart replies, and resources.
+- Escalation to voice/video calls (Phase 2).
+- Pharmacist ratings & feedback.
+
+4.4. Order Tracking
+- Step-by-step progress tracker.
+- Live location tracking of delivery agents.
+- Push + SMS notifications for status changes.
+- Estimated delivery time display.
+- Reorder from history.
+
+4.5. Diagnostics (Phase 2)
+- Browse and book lab tests.
+- Home sample collection scheduling.
+- Download reports in-app.
+
+4.6. Reminders & Notifications
+- Prescription refill alerts.
+- Health tips, vaccine reminders.
+- Chat message replies.
+- Order status updates.
+
+4.7. Payments & Wallet
+- UPI, debit/credit card, mobile money, cash-on-delivery.
+- Apply coupons and loyalty points.
+- Refund processing.
+
+5. Admin & Pharmacy Portal
+--------------------------
+- Prescription review and confirmation.
+- Chat queue monitoring.
+- Order dispatch and delivery coordination.
+- Pharmacist availability toggling.
+- Inventory and stock management.
+
+6. Technical Requirements
+-------------------------
+- Mobile App: React Native (iOS & Android)
+- Backend API: Node.js / Django REST API
+- Database: PostgreSQL / MongoDB
+- Chat System: Socket.io (WebSocket) or Firebase Chat
+- Maps Integration: Google Maps / Mapbox
+- Hosting: AWS / DigitalOcean
+
+7. Privacy & Security
+---------------------
+- HIPAA-compliant data handling (if global)
+- Local data protection laws (e.g., Ghana’s Data Protection Act)
+- Encrypted chat and prescription uploads
+- 2FA for admin/pharmacy dashboards
+
+8. Success Metrics
+------------------
+- Average delivery time
+- Avg. pharmacist response time
+- Monthly refill rate
+- App store rating
+- Daily active users (DAU)
+
+9. Future Roadmap
+-----------------
+- Video call consultations with pharmacists/doctors
+- AI-based symptom checker (Rxcue AI Assistant)
+- EHR integration with clinics and hospitals
+- Loyalty program or Rxcue Health Pass
