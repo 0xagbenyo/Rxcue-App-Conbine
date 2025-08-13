@@ -9,11 +9,13 @@ export const API_CONFIG = {
     currentIP: 'http://192.168.8.133:3000/api',
     // Add your computer's hostname here (more stable than IP)
     hostname: 'http://Mawusi:3000/api',
+    // Render backend URL
+    render: 'https://rxcue-backend.onrender.com/api',
   },
   
   // Production
   production: {
-    domain: 'https://your-production-domain.com/api',
+    domain: 'https://rxcue-backend.onrender.com/api',
   },
   
   // ngrok for external access (temporary)
@@ -33,9 +35,10 @@ export const getApiUrl = () => {
     // return API_CONFIG.development.currentIP; // For your current IP address
     // return API_CONFIG.development.hostname; // For your computer's hostname
     // return API_CONFIG.ngrok.url; // For ngrok (external access)
+    // return API_CONFIG.development.render; // For Render backend
     
-    // Use current IP for physical device testing
-    return API_CONFIG.development.currentIP;
+    // Use Render backend for consistent testing
+    return API_CONFIG.development.render;
   } else {
     return API_CONFIG.production.domain;
   }
