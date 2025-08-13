@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "RxcueApp",
+    "name": "Rxcue",
     "slug": "RxcueApp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -39,14 +39,14 @@
       [
         "expo-notifications",
         {
-          "icon": "./assets/icon.png",
+          "icon": "./assets/notification-icon.png",
           "color": "#ffffff",
           "sounds": []
         }
       ]
     ],
     "notification": {
-      "icon": "./assets/icon.png",
+      "icon": "./assets/notification-icon.png",
       "color": "#ffffff",
       "iosDisplayInForeground": true,
       "androidMode": "default",
